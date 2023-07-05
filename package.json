@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "lucia-adapter-dynamodb",
+  "description": "DynamoDB adapter for Lucia auth",
+  "main": "adapter.ts",
+  "type": "module",
+  "devDependencies": {
+    "lucia": "^2.0.0-beta",
+    "@lucia-auth/adapter-test": "^4.0.0-beta",
+    "@aws-sdk/client-dynamodb": "^3.363.0",
+    "@aws-sdk/lib-dynamodb": "^3.365.0"
+  }
+}
