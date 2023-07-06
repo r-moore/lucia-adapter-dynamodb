@@ -27,10 +27,10 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocument } from "@aws-sdk/lib-dynamodb";
 
 const client = new DynamoDBClient({ region, credentials });
-const document = DynamoDBDocument.from(client);
+const documentClient = DynamoDBDocument.from(client);
 
 export const auth = lucia({
-  adapter: adapter({ document, table: "MyAuthTable" }),
+  adapter: adapter({ documentClient, table: "MyAuthTable" }),
 });
 ```
 
