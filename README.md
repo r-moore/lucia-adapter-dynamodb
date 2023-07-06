@@ -6,11 +6,23 @@ The adapter uses aws-sdk v3.
 
 ## Installation
 
-`pnpm install lucia-adapter-dynamodb`
+N.B. this package is not yet published on npm
+
+```
+pnpm install lucia-adapter-dynamodb
+```
+
 OR
-`yarn add lucia-adapter-dynamodb`
+
+```
+yarn add lucia-adapter-dynamodb
+```
+
 OR
-`npm install lucia-adapter-dynamodb`
+
+```
+npm install lucia-adapter-dynamodb
+```
 
 ## Usage
 
